@@ -13,14 +13,29 @@
         android:theme="@style/Theme.Vemax"
         tools:targetApi="31">
         <activity
-            android:name=".Operacao"
-            android:screenOrientation="landscape"
+            android:name=".Passagem"
             android:exported="false" />
         <activity
+            android:name=".Ajuste"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Receita"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Estrobo"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Operacao"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name=".MainActivity"
+            android:exported="true"
             android:scaleType="centerCrop"
-            android:screenOrientation="landscape"
-            android:exported="true">
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
